@@ -1,0 +1,16 @@
+version: "3.9"
+services:
+  pink:
+    build: .
+    restart: on-failure
+    container_name: pink
+    ports:
+      - 20001:8080
+    deploy:
+      resources:
+        limits:
+          cpus: "0.5"
+          memory: 512M
+        reservations:
+          cpus: "0.25"
+          memory: 256M

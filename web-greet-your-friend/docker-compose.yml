@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  pink:
+    build: .
+    restart: on-failure
+    container_name: greet-your-friend
+    ports:
+      - 20009:8080

@@ -1,0 +1,8 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	url = http://35.197.140.85:9001
+	fetch = +refs/heads/*:refs/remotes/origin/*

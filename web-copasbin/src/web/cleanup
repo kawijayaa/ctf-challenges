@@ -1,0 +1,1 @@
+*/10 * * * * find /app/uploads -not -name "1" -type f -delete -print

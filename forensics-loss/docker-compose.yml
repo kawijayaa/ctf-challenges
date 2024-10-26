@@ -1,0 +1,14 @@
+version: '3.9'
+services:
+  loss:
+    build:
+      context: .
+    container_name: loss
+    restart: on-failure
+    ports:
+      - "9001:3000"
+    deploy:
+      resources:
+        limits:
+          cpus: '0.2'
+          memory: 256M

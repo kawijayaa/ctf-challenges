@@ -1,0 +1,8 @@
+0000000000000000000000000000000000000000 bc5d4c8863292c44bd307a3da7a9820ee2158544 Muhammad Oka <oka@muhammadoka.dev> 1718289777 +0700	commit (initial): initial commit
+bc5d4c8863292c44bd307a3da7a9820ee2158544 e6d48f3cea02abfe3ea8051546e3ecd400945756 Muhammad Oka <oka@muhammadoka.dev> 1718290170 +0700	commit: basic server
+e6d48f3cea02abfe3ea8051546e3ecd400945756 e6d48f3cea02abfe3ea8051546e3ecd400945756 Muhammad Oka <oka@muhammadoka.dev> 1718290178 +0700	Branch: renamed refs/heads/main to refs/heads/dev
+e6d48f3cea02abfe3ea8051546e3ecd400945756 e6d48f3cea02abfe3ea8051546e3ecd400945756 Muhammad Oka <oka@muhammadoka.dev> 1718290212 +0700	Branch: renamed refs/heads/dev to refs/heads/dev
+e6d48f3cea02abfe3ea8051546e3ecd400945756 e6b3203ddbc0b624994184c296dd672e8a8a0471 Muhammad Oka <oka@muhammadoka.dev> 1718290439 +0700	commit: main page
+e6b3203ddbc0b624994184c296dd672e8a8a0471 7b1498ee16380e4db42abe28aa4f16d2b0374382 Muhammad Oka <oka@muhammadoka.dev> 1718290540 +0700	commit: about page
+7b1498ee16380e4db42abe28aa4f16d2b0374382 c11b24f6d400f096d897ef47a3006645ae9e5857 Muhammad Oka <oka@muhammadoka.dev> 1718290673 +0700	commit: add link back to about page
+c11b24f6d400f096d897ef47a3006645ae9e5857 fc8bf86f572ccdff7bbe7d2e2f2f5f49cd108105 Muhammad Oka <oka@muhammadoka.dev> 1718290691 +0700	commit: FORGOT TO REMOVE

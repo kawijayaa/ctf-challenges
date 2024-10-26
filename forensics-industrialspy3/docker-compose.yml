@@ -1,0 +1,13 @@
+services:
+  industrialspy3:
+    restart: on-failure
+    build:
+      context: .
+    ports:
+      - "9009:8080"
+    container_name: industrialspy3
+    deploy:
+      resources:
+        limits:
+          cpus: '0.25'
+          memory: 256M

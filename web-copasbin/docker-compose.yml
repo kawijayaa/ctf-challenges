@@ -1,0 +1,25 @@
+services:
+  copasbin-web:
+    container_name: copasbin-web
+    build:
+      context: src/web
+    ports:
+      - "9007:3000"
+    restart: on-failure
+    deploy:
+      resources:
+        limits:
+          cpus: '0.25'
+          memory: 256M
+  copasbin-bot:
+    container_name: copasbin-bot
+    build:
+      context: src/admin-bot
+    environment:
+        FLAG: COMPFEST16{jUst_uR_av3R4Ge_XSS_cH4Ll_9bed209a28}
+    restart: on-failure
+    deploy:
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: 2G
