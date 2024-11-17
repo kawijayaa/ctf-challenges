@@ -14,9 +14,7 @@ def home():
 
         if request.args.get('name') :
             if all(c not in request.args.get('name') for c in ['%', 'class', 'mro', 'attr', 'self', 'read']):
-                result = render_template_string(
-                    f"{{% raw %}} Hello {request.args.get('name')}! {GREETINGS[random.randint(0, len(GREETINGS)-2)]} {{% endraw %}}"
-                )
+                result = render_template_string(f"Hello {request.args.get('name')}! {GREETINGS[random.randint(0, len(GREETINGS)-2)]}")
                 return render_template("index.html", **{"data": result})
             else:
                 return render_template("index.html", **{"data": "nu uh >:("})
