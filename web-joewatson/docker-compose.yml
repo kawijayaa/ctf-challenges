@@ -1,0 +1,8 @@
+services:
+  web:
+    build: .
+    container_name: joewatson-web
+    environment:
+      - FLAG=NETSOS{ud4h_L4m4_g4k_n3mU_S0aL_nG1nx_h3h3}
+    ports:
+      - 9001:80
