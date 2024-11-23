@@ -36,6 +36,11 @@ A collection of CTF challenges I have made over the years.
         <td>Git Forensics, Git Recovery</td>
     </tr>
     <tr>
+        <td><a href="forensics-power/">forensics-power</a></td>
+        <td>Forensics</td>
+        <td>Wireshark, Network Forensics, Threat Intelligence, PowerShell</td>
+    </tr>
+    <tr>
         <td><a href="forensics-protokol/">forensics-protokol</a></td>
         <td>Forensics</td>
         <td>Wireshark, Network Forensics</td>
