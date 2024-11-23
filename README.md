@@ -2,6 +2,25 @@
 
 A collection of CTF challenges I have made over the years.
 
+## Directory Structure
+
+```
+category/
+└── challenge-name/
+    ├── public/       # Files that participants would receive
+    ├── src/          # Files that are deployed to the server / source code to generate the challenge
+    ├── writeup/      # A short writeup/payload and scripts to solve the challenge, if any
+    └── README.md     # Contains the challenge description, flag and any other information
+```
+
+## Challenge Deployment
+
+If the challenge needs a service, the challenge can be deployed locally using Docker and Docker Compose using the following commands:
+
+```bash
+docker-compose up -d
+```
+
 ## Challenges
 
 ### Forensics
