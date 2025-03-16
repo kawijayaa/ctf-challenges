@@ -31,31 +31,39 @@ docker-compose up -d
         <th>Topics</th>
     </tr>
     <tr>
-        <td><a href="forensics/bleu-de-fender/">forensics-bleu-de-fender</a></td>
+        <td><a href="forensics/bleu-de-fender/">bleu-de-fender</a></td>
         <td>Disk Forensics, Windows Defender, PNG Steganography</td>
     </tr>
     <tr>
-        <td><a href="forensics/industrialspy/">forensics-industrialspy</a></td>
+        <td><a href="forensics/collection/">collection</a></td>
+        <td>Network Forensics, Clipboard Stealer, Powershell</td>
+    </tr>
+    <tr>
+        <td><a href="forensics/industrialspy/">industrialspy</a></td>
         <td>Memory Forensics, Volatility3, GIMP</td>
     </tr>
     <tr>
-        <td><a href="forensics/industrialspy2/">forensics-industrialspy2</a></td>
+        <td><a href="forensics/industrialspy2/">industrialspy2</a></td>
         <td>Wireshark, USB Forensics</td>
     </tr>
     <tr>
-        <td><a href="forensics/industrialspy3/">forensics-industrialspy3</a></td>
+        <td><a href="forensics/industrialspy3/">industrialspy3</a></td>
         <td>Network Forensics, Wireshark, Threat Intelligence</td>
     </tr>
     <tr>
-        <td><a href="forensics/loss/">forensics-loss</a></td>
+        <td><a href="forensics/keepnotes/">keepnotes</a></td>
+        <td>Disk Forensics, Notepad Cache</td>
+    </tr>
+    <tr>
+        <td><a href="forensics/loss/">loss</a></td>
         <td>Git Forensics, Git Recovery</td>
     </tr>
     <tr>
-        <td><a href="forensics/power/">forensics-power</a></td>
+        <td><a href="forensics/power/">power</a></td>
         <td>Network Forensics, Threat Intelligence, PowerShell</td>
     </tr>
     <tr>
-        <td><a href="forensics/protokol/">forensics-protokol</a></td>
+        <td><a href="forensics/protokol/">protokol</a></td>
         <td>Network Forensics</td>
     </tr>
 </table>
@@ -68,62 +76,35 @@ docker-compose up -d
         <th>Topics</th>
     </tr>
     <tr>
-        <td><a href="web/belajar-coding/">web-belajar-coding</a></td>
+        <td><a href="web/belajar-coding/">belajar-coding</a></td>
         <td>PHP, LFI</td>
     </tr>
     <tr>
-        <td><a href="web/copasbin/">web-copasbin</a></td>
+        <td><a href="web/copasbin/">copasbin</a></td>
         <td>XSS, Prototype Pollution, CVE</td>
     </tr>
     <tr>
-        <td><a href="web/greet-your-friend/">web-greet-your-friend</a></td>
+        <td><a href="web/greet-your-friend/">greet-your-friend</a></td>
         <td>SSTI, Jinja2</td>
     </tr>
     <tr>
-        <td><a href="web/joewatson/">web-joewatson</a></td>
+        <td><a href="web/joewatson/">joewatson</a></td>
         <td>JWT, Nginx Misconfiguration, LFI</td>
     </tr>
     <tr>
-        <td><a href="web/pink/">web-pink</a></td>
+        <td><a href="web/pink/">pink</a></td>
         <td>Command Injection</td>
     </tr>
     <tr>
-        <td><a href="web/siakgg/">web-siakgg</a></td>
+        <td><a href="web/siakgg/">siakgg</a></td>
         <td>SQL Injection</td>
     </tr>
     <tr>
-        <td><a href="web/thematrix/">web-thematrix</a></td>
+        <td><a href="web/thematrix/">thematrix</a></td>
         <td>Cypher Injection, Neo4j</td>
     </tr>
-</table>
-
-### Miscellaneous
-
-<table>
     <tr>
-        <th>Challenge Name</th>
-        <th>Topics</th>
-    </tr>
-    <tr>
-        <td><a href="misc/grassyfields/">misc-grassyfields</a></td>
-        <td>Morse Code</td>
-    </tr>
-    <tr>
-        <td><a href="misc/napi/">misc-napi</a></td>
-        <td>Python Jail, Privilege Escalation</td>
-    </tr>
-</table>
-
-### Reverse Engineering
-
-<table>
-    <tr>
-        <th>Challenge Name</th>
-        <th>Topics</th>
-    </tr>
-    <tr>
-        <td><a href="reverse/hackedlol/">reverse-hackedlol</a></td>
-        <td>Reverse Engineering</td>
-        <td>Python Bytecode, Obfuscation</td>
+        <td><a href="web/weebsocks/">weebsocks</a></td>
+        <td>Websockets, Broken Access Control</td>
     </tr>
 </table>

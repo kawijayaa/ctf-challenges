@@ -1,0 +1,20 @@
+services:
+  web:
+    build: ./src/web
+    container_name: weebsocks-web
+  api:
+    build: ./src/api
+    container_name: weebsocks-api
+    environment:
+      - FLAG=NETSOS{A01_br0k3n_4cc3ss_c0ntr0l_be5b3c5c7d}
+      - JWT_SECRET=sadnklgfkndhjgoirnhbtfuigkfewhfjikdsbnfjklbehr
+  proxy:
+    image: caddy:2.4.6
+    container_name: weebsocks-proxy
+    ports:
+      - 9002:80
+    volumes:
+      - ./src/Caddyfile:/etc/caddy/Caddyfile
+    depends_on:
+      - web
+      - api
