@@ -39,7 +39,7 @@ docker-compose up -d
         <td>Network Forensics, Clipboard Stealer, Powershell</td>
     </tr>
     <tr>
-        <td><a href="forensics/frost/">Frost</a></td>
+        <td><a href="forensics/frost/">frost</a></td>
         <td>Active Directory Forensics, Docker Image Analysis, C2, SMB</td>
     </tr>
     <tr>
