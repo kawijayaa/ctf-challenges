@@ -39,6 +39,10 @@ docker-compose up -d
         <td>Network Forensics, Clipboard Stealer, Powershell</td>
     </tr>
     <tr>
+        <td><a href="forensics/frost/">Frost</a></td>
+        <td>Active Directory Forensics, Docker Image Analysis, C2, SMB</td>
+    </tr>
+    <tr>
         <td><a href="forensics/industrialspy/">industrialspy</a></td>
         <td>Memory Forensics, Volatility3, GIMP</td>
     </tr>
@@ -57,6 +61,10 @@ docker-compose up -d
     <tr>
         <td><a href="forensics/loss/">loss</a></td>
         <td>Git Forensics, Git Recovery</td>
+    </tr>
+    <tr>
+        <td><a href="forensics/persistence/">persistence</a></td>
+        <td>Disk Forensics, File Association, Keylogger</td>
     </tr>
     <tr>
         <td><a href="forensics/power/">power</a></td>
